@@ -1,0 +1,17 @@
+service: hello-world
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: preview
+  region: eu-west-1
+  memorySize: 128
+
+functions:
+  hello:
+    handler: dist/index.handler
+    events:
+      - http:
+          path: hello
+          method: GET
+          cors: true
