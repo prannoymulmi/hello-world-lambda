@@ -1,4 +1,6 @@
 # Hello World Lambda
+[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+
 This is a hello world lambda function using NodeJs and typescript, which is 
 to be deployed as a serverless application in AWS cloud.
 
